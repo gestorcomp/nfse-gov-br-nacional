@@ -10,5 +10,6 @@ export { consultarNfseChave, consultarDpsChave } from './services/consultas';
 export { environmentUrls } from './config/environments';
 export type { NfseEnvironment } from './config/environments';
 
+
 export type { DPS, Endereco, Contato, NFSeResponse } from './models/dps';
 export type { NFSe, DPSConsultaResponse } from './models/responses';
